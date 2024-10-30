@@ -1,0 +1,38 @@
+/* Small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .container {
+      padding: 10px;
+      font-size: 14px;
+    }
+  
+    .project-card {
+      flex-direction: column; /* Stack cards vertically */
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Medium devices (tablets, 600px - 1024px) */
+  @media only screen and (min-width: 600px) and (max-width: 1024px) {
+    .container {
+      padding: 20px;
+      font-size: 16px;
+    }
+  
+    .project-card {
+      flex-direction: row; /* Arrange cards horizontally */
+    }
+  }
+  
+  /* Large devices (desktops, 1024px and up) */
+  @media only screen and (min-width: 1024px) {
+    .container {
+      padding: 30px;
+      font-size: 18px;
+    }
+  
+    .project-card {
+      flex-direction: row;
+      margin: 15px;
+    }
+  }
+  
