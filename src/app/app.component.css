@@ -19,6 +19,7 @@
     justify-content: space-between;
     align-items: center;
     max-width: 1200px;
+    padding: 15px;
     margin: 0 auto;
   }
   
@@ -34,9 +35,38 @@
   .nav-links {
     list-style: none;
     display: flex;
+    transition: transform 0.5s ease-in-out;
     gap: 2em; /* Adjust spacing between links */
   }
   
+  .nav-links li {
+    margin-left: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+  }
+
+  .hamburger {
+    display: none;
+    cursor: pointer;
+    flex-direction: column;
+  }
+  
+  .bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px;
+  }
+
+  @media (max-width: 768px) {
+    .hamburger {
+      display: flex;
+    }
+
   /* Navigation Link Styling */
   .nav-link {
     color: #fff;
@@ -52,6 +82,8 @@
     transform: translateY(-2px); /* Slight lift on hover */
   }
   
+
+
   /* Hover Effect: Animated underline */
   .nav-link::after {
     content: '';
@@ -77,4 +109,4 @@
   
  
   
-  
+}
