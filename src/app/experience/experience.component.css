@@ -7,11 +7,29 @@
   color: #333333; /* Text color, adjust as needed */
 }
 
+/*
 .experience-section h2 {
-  font-size: 32px; /* Slightly larger and more elegant title */
-  color: #333333; /* Neutral dark gray for the title */
-  font-weight: 600; /* Semi-bold for a clean look */
-  margin-bottom: 40px; /* More breathing space below the title */
+  font-size: 32px; 
+  color: #333333; 
+  font-weight: 600; 
+  margin-bottom: 40px; 
+}
+
+*/
+
+
+.experience-section h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 36px;
+  margin-bottom: 15px;
+  color: #2c3e50;
+}
+
+.job-title {
+  font-family: 'Poppins', sans-serif; /* Apply the Poppins font */
+  font-size: 1.2em;
+  color: #555; /* Text color, adjust as needed */
+  margin: 10px 0; /* Adjust margin as necessary */
 }
 
 .experience-card {
